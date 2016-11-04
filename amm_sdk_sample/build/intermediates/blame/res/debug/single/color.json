@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_actbtn_text.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_actbtn_text.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_title_btn_text.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_title_btn_text.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_choice_text_color.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_choice_text_color.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_list_textcolor_one.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_list_textcolor_one.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_btn_text.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_btn_text.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_list_textcolor_two.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_list_textcolor_two.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_list_textcolor_time.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_list_textcolor_time.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_style_one_btn_text.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_style_one_btn_text.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_hyper_text.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_hyper_text.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_pref_title.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_pref_title.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_style_two_btn_text.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_style_two_btn_text.xml"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/color/mm_pref_summary.xml",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/color/mm_pref_summary.xml"
+    }
+]
