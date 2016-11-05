@@ -24,8 +24,10 @@ public class PayActivity extends Activity {
 		setContentView(R.layout.pay);
 		
 		api = WXAPIFactory.createWXAPI(this, Constants.APP_ID);
+        api.registerApp(Constants.APP_ID);
 
-		Button appayBtn = (Button) findViewById(R.id.appay_btn);
+
+        Button appayBtn = (Button) findViewById(R.id.appay_btn);
 		appayBtn.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -75,7 +77,9 @@ public class PayActivity extends Activity {
 		        }
 		        payBtn.setEnabled(true);
 			}
-		});		
+		});
+
+
 		Button checkPayBtn = (Button) findViewById(R.id.check_pay_btn);
 		checkPayBtn.setOnClickListener(new View.OnClickListener() {
 			

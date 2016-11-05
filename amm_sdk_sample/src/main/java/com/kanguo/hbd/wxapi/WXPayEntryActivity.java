@@ -1,10 +1,6 @@
 package com.kanguo.hbd.wxapi;
 
 
-
-
-
-
 import com.kanguo.hbd.Constants;
 import com.kanguo.hbd.R;
 
