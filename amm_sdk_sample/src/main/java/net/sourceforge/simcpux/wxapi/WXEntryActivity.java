@@ -41,29 +41,10 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
         
         // 通过WXAPIFactory工厂，获取IWXAPI的实例
     	api = WXAPIFactory.createWXAPI(this, Constants.APP_ID, false);
+		// 将该app注册到微信
+		api.registerApp(Constants.APP_ID);
 
-    	//将该app注册到微信
-    	regBtn = (Button) findViewById(R.id.reg_btn);
-    	regBtn.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// 将该app注册到微信
-			    api.registerApp(Constants.APP_ID);    	
-			}
-		});
-    	
-    	//发消息界面
-        gotoBtn = (Button) findViewById(R.id.goto_send_btn);
-        gotoBtn.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-		        startActivity(new Intent(WXEntryActivity.this, SendToWXActivity.class));
-		        finish();
-			}
-		});
-        
+
         //启动微信
         launchBtn = (Button) findViewById(R.id.launch_wx_btn);
         launchBtn.setOnClickListener(new View.OnClickListener() {
@@ -74,21 +55,8 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
 			}
 		});
         
-        //检查是否支持发送到朋友圈
-        checkBtn = (Button) findViewById(R.id.check_timeline_supported_btn);
-        checkBtn.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				int wxSdkVersion = api.getWXAppSupportAPI();
-				if (wxSdkVersion >= TIMELINE_SUPPORTED_VERSION) {
-					Toast.makeText(WXEntryActivity.this, "wxSdkVersion = " + Integer.toHexString(wxSdkVersion) + "\ntimeline supported", Toast.LENGTH_LONG).show();
-				} else {
-					Toast.makeText(WXEntryActivity.this, "wxSdkVersion = " + Integer.toHexString(wxSdkVersion) + "\ntimeline not supported", Toast.LENGTH_LONG).show();
-				}
-			}
-		});
-        
+
+
         //支付界面
         payBtn = (Button) findViewById(R.id.goto_pay_btn);
         payBtn.setOnClickListener(new View.OnClickListener() {
@@ -100,21 +68,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
 			}
 		});
         
-        //跳转到收藏界面
-        favButton = (Button) findViewById(R.id.goto_fav_btn);
-        favButton.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				startActivity(new Intent(WXEntryActivity.this, AddFavoriteToWXActivity.class));
-				finish();
-			}
-		});
-        
-        // debug
-       
-        // debug end
-        
+
         api.handleIntent(getIntent(), this);
     }
 

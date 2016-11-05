@@ -96,12 +96,12 @@
         "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/drawable-hdpi/ic_preference_one_normal.9.png"
     },
     {
-        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/drawable-hdpi-v4/mm_title_btn_focused.9.png",
-        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/drawable-hdpi/mm_title_btn_focused.9.png"
-    },
-    {
         "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_dialog_long_click.png",
         "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/drawable-hdpi/ic_dialog_long_click.png"
+    },
+    {
+        "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/drawable-hdpi-v4/mm_title_btn_focused.9.png",
+        "source": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/src/main/res/drawable-hdpi/mm_title_btn_focused.9.png"
     },
     {
         "merged": "/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/res/merged/debug/drawable-hdpi-v4/mm_title_btn_normal.9.png",
