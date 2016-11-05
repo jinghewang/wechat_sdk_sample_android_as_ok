@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class PayActivity extends Activity {
@@ -22,14 +23,20 @@ public class PayActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.pay);
 		
-		api = WXAPIFactory.createWXAPI(this, "wxb4ba3c02aa476ea1");
+		api = WXAPIFactory.createWXAPI(this, Constants.APP_ID);
 
 		Button appayBtn = (Button) findViewById(R.id.appay_btn);
 		appayBtn.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				String url = "http://wxpay.weixin.qq.com/pub_v2/app/app_pay.php?plat=android";
+				//String url = "http://wxpay.weixin.qq.com/pub_v2/app/app_pay.php?plat=android";
+                TextView orderid = (TextView) findViewById(R.id.tx_orderid);
+                if (orderid.getText().length() ==0)
+                    Toast.makeText(PayActivity.this,"请输入订单号",Toast.LENGTH_LONG);
+
+				String url = "http://www.hbdworld.com.cn/v_4_app/wxpay/index?order_id="+ orderid.getText()  +"&token=a178c5bbd289510eefb02d0043b03d02";
+
 				Button payBtn = (Button) findViewById(R.id.appay_btn);
 				payBtn.setEnabled(false);
 				Toast.makeText(PayActivity.this, "获取订单中...", Toast.LENGTH_SHORT).show();
@@ -41,13 +48,14 @@ public class PayActivity extends Activity {
 			        	JSONObject json = new JSONObject(content); 
 						if(null != json && !json.has("retcode") ){
 							PayReq req = new PayReq();
+							json = json.getJSONObject("data");
 							//req.appId = "wxf8b4f85f3a794e77";  // 测试用appId
-							req.appId			= json.getString("appid");
-							req.partnerId		= json.getString("partnerid");
-							req.prepayId		= json.getString("prepayid");
-							req.nonceStr		= json.getString("noncestr");
-							req.timeStamp		= json.getString("timestamp");
-							req.packageValue	= json.getString("package");
+							req.appId			= json.getString("appId");
+							req.partnerId		= json.getString("partnerId");
+							req.prepayId		= json.getString("prepayId");
+							req.nonceStr		= json.getString("nonceStr");
+							req.timeStamp		= json.getString("timeStamp");
+							req.packageValue	= json.getString("packageValue");
 							req.sign			= json.getString("sign");
 							req.extData			= "app data"; // optional
 							Toast.makeText(PayActivity.this, "正常调起支付", Toast.LENGTH_SHORT).show();
