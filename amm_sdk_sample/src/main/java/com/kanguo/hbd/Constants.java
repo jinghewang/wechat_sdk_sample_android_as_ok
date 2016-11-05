@@ -1,4 +1,4 @@
-package net.sourceforge.simcpux;
+package com.kanguo.hbd;
 
 public class Constants {
 	// APP_ID 替换为你的应用从官方网站申请到的合法appId

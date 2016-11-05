@@ -1,10 +1,10 @@
-package net.sourceforge.simcpux.uikit;
+package com.kanguo.hbd.uikit;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 
-import net.sourceforge.simcpux.MD5;
+import com.kanguo.hbd.MD5;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;

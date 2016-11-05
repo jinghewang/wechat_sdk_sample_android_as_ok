@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.sourceforge.simcpux"
+    package="com.kanguo.hbd"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,7 +15,7 @@
         android:label="@string/app_name" >
         
         <activity
-            android:name=".wxapi.WXEntryActivity"
+            android:name="com.kanguo.hbd.wxapi.WXEntryActivity"
             android:label="@string/app_name"
             android:exported="true"
             android:launchMode="singleTop">
@@ -32,37 +32,37 @@
         </activity>
         
         <activity
-            android:name=".wxapi.WXPayEntryActivity"
+            android:name="com.kanguo.hbd.wxapi.WXPayEntryActivity"
             android:exported="true"
             android:launchMode="singleTop"/>
         
         <activity
-            android:name=".SendToWXActivity"
+            android:name="com.kanguo.hbd.SendToWXActivity"
             android:label="@string/app_name"
             android:theme="@style/MMTheme.Basic"/>
         
         <activity
-            android:name=".AddFavoriteToWXActivity"
+            android:name="com.kanguo.hbd.AddFavoriteToWXActivity"
             android:label="@string/app_name"
             android:theme="@style/MMTheme.Basic"/>
         
         <activity
-            android:name=".GetFromWXActivity"
+            android:name="com.kanguo.hbd.GetFromWXActivity"
             android:label="@string/app_name"
             android:theme="@style/MMTheme.Basic"/>
         
         <activity
-            android:name=".ShowFromWXActivity"
+            android:name="com.kanguo.hbd.ShowFromWXActivity"
             android:label="@string/app_name"
             android:theme="@style/MMTheme.Basic"/>
         
         <activity
-            android:name=".PayActivity"
+            android:name="com.kanguo.hbd.PayActivity"
             android:label="@string/app_name"
             android:theme="@style/MMTheme.Basic"/>
         
         <receiver
-            android:name=".AppRegister">
+            android:name="com.kanguo.hbd.AppRegister">
             <intent-filter>
                 <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
             </intent-filter>

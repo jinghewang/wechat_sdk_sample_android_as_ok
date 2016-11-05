@@ -1,12 +1,10 @@
-package net.sourceforge.simcpux.wxapi;
+package com.kanguo.hbd.wxapi;
 
-import net.sourceforge.simcpux.AddFavoriteToWXActivity;
-import net.sourceforge.simcpux.Constants;
-import net.sourceforge.simcpux.GetFromWXActivity;
-import net.sourceforge.simcpux.PayActivity;
-import net.sourceforge.simcpux.R;
-import net.sourceforge.simcpux.SendToWXActivity;
-import net.sourceforge.simcpux.ShowFromWXActivity;
+import com.kanguo.hbd.Constants;
+import com.kanguo.hbd.GetFromWXActivity;
+import com.kanguo.hbd.PayActivity;
+import com.kanguo.hbd.R;
+import com.kanguo.hbd.ShowFromWXActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,12 +1,12 @@
-package net.sourceforge.simcpux.wxapi;
+package com.kanguo.hbd.wxapi;
 
 
 
 
 
 
-import net.sourceforge.simcpux.Constants;
-import net.sourceforge.simcpux.R;
+import com.kanguo.hbd.Constants;
+import com.kanguo.hbd.R;
 
 import com.tencent.mm.sdk.constants.ConstantsAPI;
 import com.tencent.mm.sdk.modelbase.BaseReq;

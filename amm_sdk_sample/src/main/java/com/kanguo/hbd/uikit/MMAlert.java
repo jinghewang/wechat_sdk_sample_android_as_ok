@@ -1,10 +1,10 @@
-package net.sourceforge.simcpux.uikit;
+package com.kanguo.hbd.uikit;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sourceforge.simcpux.R;
-import net.sourceforge.simcpux.Util;
+import com.kanguo.hbd.R;
+import com.kanguo.hbd.Util;
 
 import android.app.Activity;
 import android.app.AlertDialog;

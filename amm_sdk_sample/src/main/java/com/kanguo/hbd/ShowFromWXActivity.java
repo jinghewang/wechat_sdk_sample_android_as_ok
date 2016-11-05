@@ -1,6 +1,4 @@
-package net.sourceforge.simcpux;
-
-import net.sourceforge.simcpux.R;
+package com.kanguo.hbd;
 
 import android.app.Activity;
 import android.app.AlertDialog;

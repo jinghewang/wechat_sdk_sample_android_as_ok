@@ -1,4 +1,4 @@
-package net.sourceforge.simcpux;
+package com.kanguo.hbd;
 
 import com.tencent.mm.sdk.openapi.IWXAPI;
 import com.tencent.mm.sdk.openapi.WXAPIFactory;

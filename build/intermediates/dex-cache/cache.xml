@@ -5,7 +5,7 @@
         jar="/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="a0fdb2f40160719a645e8684f77a782c9a38d9cd">
+        sha1="4181b533c9ede7000b82229164c1e1f29f156031">
         <dex dex="/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_663a31fac167da52c8313ea810ae9d9f45dbb32a/classes.dex" />
     </item>
     <item
@@ -19,7 +19,7 @@
         jar="/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="e4d6ab8b24bfeb564240b5f3fa129fd349fdb30c">
+        sha1="feaf6622ac4159d8ba2e53bf2b19537f21fa4749">
         <dex dex="/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_292af979a967fab559720ca0a72aa175f52776d3/classes.dex" />
     </item>
 

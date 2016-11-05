@@ -4,11 +4,11 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="37715061641964" >
+    timestamp="43283514289851" >
 
     <task
         name="javac"
-        duration="214" />
+        duration="249" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -17,13 +17,13 @@
         duration="123" />
     <task
         name="verifier"
-        duration="32" />
+        duration="29" />
 
     <artifact
         location="/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/outputs/apk/amm_sdk_sample-debug.apk"
         type="MAIN" />
 
-    <build timestamp="37715061641964" >
+    <build timestamp="43283514289851" >
         <artifact
             location="/Users/hbd/Downloads/wechat_sdk_sample_android1/amm_sdk_sample/build/outputs/apk/amm_sdk_sample-debug.apk"
             type="MAIN" />

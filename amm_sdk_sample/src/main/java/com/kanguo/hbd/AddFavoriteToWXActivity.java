@@ -1,11 +1,11 @@
-package net.sourceforge.simcpux;
+package com.kanguo.hbd;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.net.URL;
 
-import net.sourceforge.simcpux.uikit.CameraUtil;
-import net.sourceforge.simcpux.uikit.MMAlert;
+import com.kanguo.hbd.uikit.CameraUtil;
+import com.kanguo.hbd.uikit.MMAlert;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
